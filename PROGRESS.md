@@ -8,11 +8,11 @@
 - Step 4 (باقي الثيمات) - جارٍ:
   - T2 Home/Pixel Night Sky: مكتمل مع لقطات شاشة.
   - T1 Intro/Typographic Poster: مكتمل مع لقطات شاشة.
-  - T3 Strategy/Mosaic Grid: مكتمل مع لقطات شاشة (screenshots/step4/t3-strategy-desktop.png, 	3-strategy-mobile.png).
-  - التالي: T6 Replay، T7 Team، T8 Launch/Admin، T10 Horror/404.
+  - T3 Strategy/Mosaic Grid: مكتمل مع لقطات شاشة.
+  - T6 Replay/Ocean Flat: مكتمل مع لقطات شاشة (screenshots/step4/t6-replay-desktop.png, 	6-replay-mobile.png).
+  - التالي: T7 Team، T8 Launch/Admin، T10 Horror/404.
 
 ## التالي
-- T6 Replay (Ocean Flat).
 - T7 Team (Ink Wash).
 - T8 Launch/Admin (Neumorphic).
 - T10 Horror/404 (Glitch Horror).

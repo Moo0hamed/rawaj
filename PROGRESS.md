@@ -7,11 +7,11 @@
 - Step 3 (ثلاث عينات ثيمات): مكتمل - T5 Ads، T4 Social، T9 Contact مع لقطات شاشة.
 - Step 4 (باقي الثيمات) - جارٍ:
   - T2 Home/Pixel Night Sky: مكتمل مع لقطات شاشة.
-  - T1 Intro/Typographic Poster: مكتمل مع لقطات شاشة (screenshots/step4/t1-intro-desktop.png, 	1-intro-mobile.png).
-  - التالي: T3 Strategy، T6 Replay، T7 Team، T8 Launch/Admin، T10 Horror/404.
+  - T1 Intro/Typographic Poster: مكتمل مع لقطات شاشة.
+  - T3 Strategy/Mosaic Grid: مكتمل مع لقطات شاشة (screenshots/step4/t3-strategy-desktop.png, 	3-strategy-mobile.png).
+  - التالي: T6 Replay، T7 Team، T8 Launch/Admin، T10 Horror/404.
 
 ## التالي
-- T3 Strategy (Mosaic Grid).
 - T6 Replay (Ocean Flat).
 - T7 Team (Ink Wash).
 - T8 Launch/Admin (Neumorphic).

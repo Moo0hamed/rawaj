@@ -1,26 +1,30 @@
 ﻿# PROGRESS.md
 
 ## الحالة الحالية
-- Step 0 (Orient): مكتمل. git init + baseline commit، PROGRESS.md، قراءة SPEC/README/البنية.
-- Step 1 (housekeeping): مكتمل وجاهز للتقرير.
-  - a) أُزيلت لوج [admin-layout-check] من pp/admin/(dashboard)/layout.tsx؛ حُذف scripts/check-admin-login.mjs.
-  - b) أُضيف supabase/migrations/003_grants.sql (GRANT USAGE + CRUD إلى authenticated، SELECT إلى anon، execute على الدوال، alter default privileges) وتم إلحاقه بـ ll-in-one.sql.
-  - c) رسائل خطأ أوضح في /admin عبر lib/admin/error-msg.ts: تصنيف GRANT/RLS/حقل مفقود/شبكة/مكرر/جدول ناقص، مع try/catch لكل عمليات الحذف/الحفظ في صفحات videos/channels/content/settings.
-  - d) تحديث scripts/admin-claim-rls-test.mjs: يغطي جميع الجداول (admins, content_versions مضافان) ويتحقق من أن 읽ات anon تعيد فقط صفوف منشورة/ظاهرة.
-- التحقق: 
-px tsc --noEmit ناجح، 
-pm run build ناجح.
+- Step 0 (Orient): مكتمل.
+- Step 1 (housekeeping): مكتمل - إزالة لوج debug، إضافة 003 grants، رسائل خطأ أوضح، اختبار RLS للـ anon.
+- Step 2 (نظام الثيمات والغراء): مكتمل.
+  - نظام الثيمات: 12 ثيمة (intro, home, strategy, social, ads, replay, team, launch, contact, horror, admin, simple) مع متغيرات CSS كاملة (ألوان، خطوط، ظلال، أزرار، نصف قطر).
+  - خطوط الثيمات: أضيفت متغيرات CSS للخطوط الـ10 (--font-lalezar, --font-baloo, --font-alex, --font-reem, --font-ibm, --font-px-ar/Handjet, --font-px-en/Pixelify Sans) وتحميلها بـ ont-display: swap عبر next/font/google في layout.tsx.
+  - الغراء (Glue): HUD، الشعار، الأزرار الرئيسية، الماسكوت يحتفظون بألوان البراند (#2391FF, #FFF83F) ومظهر بيكسل محايد عبر جميع الثيمات.
+  - الماسكوت: MascotSprite يتكيف رسمه حسب الثيمة (ألوان، حدود، شكل الجسم) مع الحفاظ على الهوية نفسها.
+  - انتقالات: 	heme-wipe لكل ثيمة مع dissolve/wipe يستعير عنصر من الثيمة التالية.
+  - احترام prefers-reduced-motion: يلغي الأنيميشن والانتقالات.
+  - Simple mode: زر في إعدادات HUD يفلطح جميع الثيمات لمظهر محايد واحد.
+  - لوحة مفاتيح: focus-visible مع outline accent، skip-to-content، nav بالكيبورد.
+  - Canvas/SVG: PixelScene مع 30fps cap، يتوقف عند إخفاء التبويب، يحترم reduced motion و simple mode.
+  - نص الجسم: 16px كحد أدنى، تباين AA في جميع الثيمات (تم التحقق من أزواج --ink/--bg).
+  - خطوط عربية: جميع خطوط العرض تدعم العربية (Changa, Handjet, Lalezar, Baloo Bhaijaan 2, Alexandria, Reem Kufi, IBM Plex Sans Arabic).
+- التحقق: 	sc و uild ناجحان.
 
 ## التالي
-- Step 2: نظام الثيمات/الغراء الكامل حسب الـ10 ثيمات (T1-T10) مع شاشات وتحقق.
-- Step 3+: عينات الثيمات ثم باقي الثيمات ثم ميزات v2 ثم النشر.
+- Step 3: ثلاث عينات ثيمات (T5 Ads، T4 Social، T9 Contact) - واحدة لكل رسالة مع لقطات شاشة.
+- Step 4: باقي الثيمات (T2, T1, T3, T6, T7, T8, T10) - واحدة لكل رسالة.
+- Step 5: ميزات v2 (قاعدة البيانات، Replay Room، قنوات، شخصية مزدوجة).
+- Step 6: النشر.
 
 ## قرارات
-- لا أسرار في الكود/الشات/الجيت. فقط NEXT_PUBLIC_SUPABASE_URL و anon/publishable في .env.local.
-- لا بيانات وهمية؛ غير الموثق = "قريبًا" من /admin.
-- لا تغيير اللوجو أو ألوان البراند (#2391FF,#FFF83F). RTL/ar افتراضي، en يعمل.
-- المقالب/الرعب مزحة واضحة + زر "أمان 🌈" + موافقة أول مرة. لا scraping.
-- خطوات صغيرة، بعد كل خطوة: tsc + build + scripts، إصلاح الأخطاء قبل التقرير.
+- لا أسرار، لا بيانات وهمية، ألوان/شعار محفوظة، RTL/ar + en، رعب/مقالب مزحة واضحة.
 
 ## مشاكل مفتوحة
-- لا توجد مشاكل مفتوحة بعد إنهاء Step 1.
+- لا توجد مشاكل مفتوحة.

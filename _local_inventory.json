@@ -1,0 +1,1269 @@
+[
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\$path",
+    "ext": "",
+    "size": 82,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\.dev.vars",
+    "ext": ".vars",
+    "size": 127,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\.dev.vars.example",
+    "ext": ".example",
+    "size": 158,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\.github\\workflows\\deploy-pages.yml",
+    "ext": ".yml",
+    "size": 1201,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\.gitignore",
+    "ext": "",
+    "size": 89,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\.vscode\\tasks.json",
+    "ext": ".json",
+    "size": 205,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\CLOUDFLARE_SETUP.md",
+    "ext": ".md",
+    "size": 4379,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\admin\\password.js",
+    "ext": ".js",
+    "size": 3374,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\admin\\session.js",
+    "ext": ".js",
+    "size": 3604,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\pro\\session.js",
+    "ext": ".js",
+    "size": 3928,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\projects.js",
+    "ext": ".js",
+    "size": 20299,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\site-content.js",
+    "ext": ".js",
+    "size": 5641,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\video\\[id].js",
+    "ext": ".js",
+    "size": 2662,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\api\\video.js",
+    "ext": ".js",
+    "size": 2702,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\functions\\_lib\\admin.js",
+    "ext": ".js",
+    "size": 5432,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\index.html",
+    "ext": ".html",
+    "size": 4955,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0002_project_controls.sql",
+    "ext": ".sql",
+    "size": 293,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0003_site_content.sql",
+    "ext": ".sql",
+    "size": 197,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0004_admin_whatsapp_recovery.sql",
+    "ext": ".sql",
+    "size": 624,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0005_admin_password_changes.sql",
+    "ext": ".sql",
+    "size": 293,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0006_project_visibility.sql",
+    "ext": ".sql",
+    "size": 155,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0006_pro_project_urls.sql",
+    "ext": ".sql",
+    "size": 73,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0007_portfolio_editor.sql",
+    "ext": ".sql",
+    "size": 459,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0008_project_delete_undo.sql",
+    "ext": ".sql",
+    "size": 58,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\migrations\\0009_project_resolved_video.sql",
+    "ext": ".sql",
+    "size": 157,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\package-lock.json",
+    "ext": ".json",
+    "size": 176269,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\package.json",
+    "ext": ".json",
+    "size": 1200,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-cloudflare-site.zip",
+    "ext": ".zip",
+    "size": 19403278,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-cloudflare-upload.zip",
+    "ext": ".zip",
+    "size": 19403290,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-latest-20261018.zip",
+    "ext": ".zip",
+    "size": 39020771,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-live-site-20261018.zip",
+    "ext": ".zip",
+    "size": 10773067,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-saved-20261018.zip",
+    "ext": ".zip",
+    "size": 10641775,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\portfolio-updated-20261018.zip",
+    "ext": ".zip",
+    "size": 21353837,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\preview-local.log",
+    "ext": ".log",
+    "size": 5563,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\apple-touch-icon.png",
+    "ext": ".png",
+    "size": 3357,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\favicon-32.png",
+    "ext": ".png",
+    "size": 1160,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\favicon.ico",
+    "ext": ".ico",
+    "size": 1182,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\favicon.svg",
+    "ext": ".svg",
+    "size": 258,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\archive-poster.jpg",
+    "ext": ".jpg",
+    "size": 151691,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\mohamed-cutout.png",
+    "ext": ".png",
+    "size": 3718024,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\mohamed-cutout.webp",
+    "ext": ".webp",
+    "size": 111458,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\motion-design-poster.jpg",
+    "ext": ".jpg",
+    "size": 168354,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\motion-design-poster.webp",
+    "ext": ".webp",
+    "size": 59084,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\media\\motion-design.mp4",
+    "ext": ".mp4",
+    "size": 6702758,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\og-image.jpg",
+    "ext": ".jpg",
+    "size": 61317,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\robots.txt",
+    "ext": ".txt",
+    "size": 90,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\public\\sitemap.xml",
+    "ext": ".xml",
+    "size": 258,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\schema.sql",
+    "ext": ".sql",
+    "size": 1633,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\scripts\\dev.js",
+    "ext": ".js",
+    "size": 1349,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\App.jsx",
+    "ext": ".jsx",
+    "size": 4246,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\About.jsx",
+    "ext": ".jsx",
+    "size": 4063,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\AdminPasswordChange.jsx",
+    "ext": ".jsx",
+    "size": 3262,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\CrimeThreads.jsx",
+    "ext": ".jsx",
+    "size": 5650,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\CTA.jsx",
+    "ext": ".jsx",
+    "size": 4560,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Footer.jsx",
+    "ext": ".jsx",
+    "size": 28689,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Hero.jsx",
+    "ext": ".jsx",
+    "size": 5238,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Navbar.jsx",
+    "ext": ".jsx",
+    "size": 6310,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\PaperTexture.jsx",
+    "ext": ".jsx",
+    "size": 108,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\PasswordInput.jsx",
+    "ext": ".jsx",
+    "size": 998,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Portfolio.jsx",
+    "ext": ".jsx",
+    "size": 22276,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\PortfolioCard.jsx",
+    "ext": ".jsx",
+    "size": 5032,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Process.jsx",
+    "ext": ".jsx",
+    "size": 4129,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ProModeControls.jsx",
+    "ext": ".jsx",
+    "size": 4273,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ProProjectEditor.jsx",
+    "ext": ".jsx",
+    "size": 13094,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ResolvedVideoPlayer.jsx",
+    "ext": ".jsx",
+    "size": 9500,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\Services.jsx",
+    "ext": ".jsx",
+    "size": 3288,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\SiteEditor.jsx",
+    "ext": ".jsx",
+    "size": 13978,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ui\\custom-colors.jsx",
+    "ext": ".jsx",
+    "size": 924,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ui\\PortfolioGrid.jsx",
+    "ext": ".jsx",
+    "size": 23680,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\ui\\WorksWheel.jsx",
+    "ext": ".jsx",
+    "size": 520,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\components\\VideoModal.jsx",
+    "ext": ".jsx",
+    "size": 5802,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\context\\PreferencesContext.jsx",
+    "ext": ".jsx",
+    "size": 2608,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\context\\ProModeContext.jsx",
+    "ext": ".jsx",
+    "size": 2488,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\context\\SiteContentContext.jsx",
+    "ext": ".jsx",
+    "size": 5256,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\colorThemes.js",
+    "ext": ".js",
+    "size": 1688,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\contact.js",
+    "ext": ".js",
+    "size": 676,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\projectLocalizations.js",
+    "ext": ".js",
+    "size": 6089,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\projectLocalizations.test.js",
+    "ext": ".js",
+    "size": 2579,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\projects.ts",
+    "ext": ".ts",
+    "size": 5856,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\siteDefaults.js",
+    "ext": ".js",
+    "size": 1815,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\data\\translations.js",
+    "ext": ".js",
+    "size": 29816,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\main.jsx",
+    "ext": ".jsx",
+    "size": 626,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\styles.css",
+    "ext": ".css",
+    "size": 301672,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\googleDrive.ts",
+    "ext": ".ts",
+    "size": 6671,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\publicAsset.js",
+    "ext": ".js",
+    "size": 107,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\resolveVideo.js",
+    "ext": ".js",
+    "size": 11930,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\resolveVideo.test.js",
+    "ext": ".js",
+    "size": 4673,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\seo.js",
+    "ext": ".js",
+    "size": 1144,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\src\\utils\\siteAsset.js",
+    "ext": ".js",
+    "size": 183,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\vite.config.js",
+    "ext": ".js",
+    "size": 542,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\wrangler.toml",
+    "ext": ".toml",
+    "size": 243,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو\\_worker.bundle",
+    "ext": ".bundle",
+    "size": 43344,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.dev.vars",
+    "ext": ".vars",
+    "size": 115,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.dev.vars.example",
+    "ext": ".example",
+    "size": 107,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.env.example",
+    "ext": ".example",
+    "size": 70,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.github\\workflows\\deploy-pages.yml",
+    "ext": ".yml",
+    "size": 1201,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.gitignore",
+    "ext": "",
+    "size": 89,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.vscode\\tasks.json",
+    "ext": ".json",
+    "size": 196,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.xgrok\\BEST_PRACTICES.md",
+    "ext": ".md",
+    "size": 423,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.xgrok\\project.json",
+    "ext": ".json",
+    "size": 321,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\.xgrok\\SECURITY.md",
+    "ext": ".md",
+    "size": 345,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\AGENTS.md",
+    "ext": ".md",
+    "size": 1920,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\CLOUDFLARE_SETUP.md",
+    "ext": ".md",
+    "size": 3399,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\components.json",
+    "ext": ".json",
+    "size": 400,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\api\\admin\\password.js",
+    "ext": ".js",
+    "size": 3764,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\api\\admin\\session.js",
+    "ext": ".js",
+    "size": 3604,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\api\\projects.js",
+    "ext": ".js",
+    "size": 8867,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\api\\site-content.js",
+    "ext": ".js",
+    "size": 5641,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\api\\video\\[id].js",
+    "ext": ".js",
+    "size": 2379,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\functions\\_lib\\admin.js",
+    "ext": ".js",
+    "size": 4917,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\index.html",
+    "ext": ".html",
+    "size": 1002,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\migrations\\0002_project_controls.sql",
+    "ext": ".sql",
+    "size": 293,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\migrations\\0003_site_content.sql",
+    "ext": ".sql",
+    "size": 197,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\migrations\\0004_admin_whatsapp_recovery.sql",
+    "ext": ".sql",
+    "size": 624,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\migrations\\0005_admin_password_changes.sql",
+    "ext": ".sql",
+    "size": 293,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\package-lock.json",
+    "ext": ".json",
+    "size": 115498,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\package.json",
+    "ext": ".json",
+    "size": 617,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\portfolio-cloudflare-site.zip",
+    "ext": ".zip",
+    "size": 19403278,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\portfolio-cloudflare-upload.zip",
+    "ext": ".zip",
+    "size": 19403290,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\public\\media\\archive-poster.jpg",
+    "ext": ".jpg",
+    "size": 151691,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\public\\media\\mohamed-cutout.png",
+    "ext": ".png",
+    "size": 3718024,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\public\\media\\motion-design-poster.jpg",
+    "ext": ".jpg",
+    "size": 168354,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\public\\media\\motion-design.mp4",
+    "ext": ".mp4",
+    "size": 6702758,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\schema.sql",
+    "ext": ".sql",
+    "size": 1085,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\scripts\\dev.mjs",
+    "ext": ".mjs",
+    "size": 1737,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\App.jsx",
+    "ext": ".jsx",
+    "size": 1331,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\About.jsx",
+    "ext": ".jsx",
+    "size": 2402,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\AdminPasswordChange.jsx",
+    "ext": ".jsx",
+    "size": 2966,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\CrimeThreads.jsx",
+    "ext": ".jsx",
+    "size": 5650,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\CTA.jsx",
+    "ext": ".jsx",
+    "size": 1907,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\CustomCursor.jsx",
+    "ext": ".jsx",
+    "size": 807,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Footer.jsx",
+    "ext": ".jsx",
+    "size": 20674,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Hero.jsx",
+    "ext": ".jsx",
+    "size": 3143,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Navbar.jsx",
+    "ext": ".jsx",
+    "size": 2860,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\PaperTexture.jsx",
+    "ext": ".jsx",
+    "size": 108,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Portfolio.jsx",
+    "ext": ".jsx",
+    "size": 13153,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\PortfolioCard.jsx",
+    "ext": ".jsx",
+    "size": 4101,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Process.jsx",
+    "ext": ".jsx",
+    "size": 1495,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\Services.jsx",
+    "ext": ".jsx",
+    "size": 1708,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\SiteEditor.jsx",
+    "ext": ".jsx",
+    "size": 13639,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\agentic-factory-3d.tsx",
+    "ext": ".tsx",
+    "size": 100030,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\card-25.tsx",
+    "ext": ".tsx",
+    "size": 3159,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\custom-colors.tsx",
+    "ext": ".tsx",
+    "size": 1460,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\demo.tsx",
+    "ext": ".tsx",
+    "size": 1171,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\label.tsx",
+    "ext": ".tsx",
+    "size": 688,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\switch.tsx",
+    "ext": ".tsx",
+    "size": 1108,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\WorksWheel.css",
+    "ext": ".css",
+    "size": 4787,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\ui\\WorksWheel.jsx",
+    "ext": ".jsx",
+    "size": 2716,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\components\\VideoModal.jsx",
+    "ext": ".jsx",
+    "size": 4879,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\context\\PreferencesContext.jsx",
+    "ext": ".jsx",
+    "size": 1421,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\context\\SiteContentContext.jsx",
+    "ext": ".jsx",
+    "size": 4816,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\data\\colorThemes.js",
+    "ext": ".js",
+    "size": 7336,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\data\\contact.js",
+    "ext": ".js",
+    "size": 676,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\data\\projects.ts",
+    "ext": ".ts",
+    "size": 5835,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\data\\siteDefaults.js",
+    "ext": ".js",
+    "size": 1811,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\data\\translations.js",
+    "ext": ".js",
+    "size": 24335,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\lib\\utils.ts",
+    "ext": ".ts",
+    "size": 166,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\main.jsx",
+    "ext": ".jsx",
+    "size": 505,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\styles.css",
+    "ext": ".css",
+    "size": 64480,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\utils\\googleDrive.ts",
+    "ext": ".ts",
+    "size": 2983,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\utils\\publicAsset.js",
+    "ext": ".js",
+    "size": 107,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\src\\utils\\siteAsset.js",
+    "ext": ".js",
+    "size": 183,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\tsconfig.json",
+    "ext": ".json",
+    "size": 500,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\vite.config.js",
+    "ext": ".js",
+    "size": 183,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\wrangler.toml",
+    "ext": ".toml",
+    "size": 243,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\بورتفوليو.before-desktop-move-20261018",
+    "rel": "E:\\ملفات المواقع\\بورتفوليو.before-desktop-move-20261018\\_worker.bundle",
+    "ext": ".bundle",
+    "size": 43344,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\index.html",
+    "ext": ".html",
+    "size": 850,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\package-lock.json",
+    "ext": ".json",
+    "size": 60542,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\package.json",
+    "ext": ".json",
+    "size": 381,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\README.md",
+    "ext": ".md",
+    "size": 1340,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\src\\assets\\hero.mp4",
+    "ext": ".mp4",
+    "size": 37775478,
+    "isMedia": true
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\src\\data\\projects.js",
+    "ext": ".js",
+    "size": 2139,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\src\\main.jsx",
+    "ext": ".jsx",
+    "size": 13018,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio\\src\\styles.css",
+    "ext": ".css",
+    "size": 16588,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio\\mohamed-amer-portfolio.zip",
+    "ext": ".zip",
+    "size": 11408,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\app.js",
+    "ext": ".js",
+    "size": 2421,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\index.html",
+    "ext": ".html",
+    "size": 3340,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\mohamed-amer-portfolio-google-drive.zip",
+    "ext": ".zip",
+    "size": 5790,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\projects.js",
+    "ext": ".js",
+    "size": 630,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\README.md",
+    "ext": ".md",
+    "size": 1742,
+    "isMedia": false
+  },
+  {
+    "root": "E:\\\\ملفات المواقع\\\\mohamed-amer-portfolio-google-drive",
+    "rel": "E:\\ملفات المواقع\\mohamed-amer-portfolio-google-drive\\style.css",
+    "ext": ".css",
+    "size": 4995,
+    "isMedia": false
+  }
+]

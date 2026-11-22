@@ -1,0 +1,7 @@
+-- Seed helper notes (run after 001_init.sql, adjust as needed):
+-- 1) Create owner user in Supabase Auth (email/password).
+-- 2) Insert owner into admins: insert into public.admins(user_id,email) values ('<auth-user-uuid>','<email>');
+-- 3) Optionally seed site_settings.data with current file-based content snapshot (contact, identity, toggles) via dashboard or admin import.
+-- 4) Replay videos: do NOT bulk import files; add via /admin by pasting links (v2). Room stays "قريباً" until added.
+-- 5) Channels: add via /admin. Meta Graph API fetching disabled until officially connected (see app code/comments for steps).
+-- Storage bucket: create 'public-assets' (public) for sanitized/cached images.

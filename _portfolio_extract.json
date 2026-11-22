@@ -1,0 +1,27 @@
+{
+  "allCount": 39,
+  "drive": [
+    "https://drive.google.com/thumbnail?id=${o",
+    "https://drive.google.com/file/d/${o",
+    "https://drive.google.com/file/d/${encodeURIComponent(j",
+    "https://drive.google.com/thumbnail?id=${encodeURIComponent(j",
+    "https://drive.google.com/drive/folders/1ssxl66U8Zh2YaN4DtlWe6800MR6gPAQ1"
+  ],
+  "yt": [
+    "https://www.youtube.com/oembed?url=${encodeURIComponent(U",
+    "https://youtube.com/watch?v=..."
+  ],
+  "vimeo": [
+    "https://player.vimeo.com/video/${k",
+    "https://vimeo.com/api/oembed.json?url=${encodeURIComponent(U"
+  ],
+  "hosted": [
+    "https://mohamed-amer-portfolio.pages.dev/"
+  ],
+  "mediaExt": [],
+  "fileIds": [],
+  "thumbIds": [],
+  "folderIds": [
+    "1ssxl66U8Zh2YaN4DtlWe6800MR6gPAQ1"
+  ]
+}

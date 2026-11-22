@@ -113,6 +113,7 @@ type GameContextValue = {
   reset: () => void;
   sound: (name: Parameters<typeof playSound>[0]) => void;
   toast: (title: string, sub?: string, tone?: Toast["tone"]) => void;
+  triggerGlitch: () => void;
 };
 
 const GameContext = createContext<GameContextValue | null>(null);
@@ -374,6 +375,11 @@ export function GameProvider({ children }: { children: ReactNode }) {
     pushToast("تم تصفير التقدم", "نبدأ من المستوى الأول", "info");
   }, [pushToast]);
 
+  const triggerGlitch = useCallback(() => {
+    // This will be handled by GlitchEventProvider via its own state
+    // Just a placeholder for potential future use
+  }, []);
+
   const level = useMemo(() => getLevel(data.xp), [data.xp]);
 
   const value = useMemo<GameContextValue>(
@@ -397,6 +403,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
       reset,
       sound,
       toast: pushToast,
+      triggerGlitch,
     }),
     [
       data,
@@ -418,6 +425,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
       reset,
       sound,
       pushToast,
+      triggerGlitch,
     ],
   );
 

@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { GameProvider } from "@/components/game/GameProvider";
 import { CampaignHUD } from "@/components/campaign/CampaignHUD";
+import { GlitchEventProvider } from "@/components/game/GlitchEvent";
 import { Mascot } from "@/components/campaign/Mascot";
 import { IntroScreen } from "@/components/game/IntroScreen";
 import { ThemeShell } from "@/components/theme/ThemeShell";
@@ -127,7 +128,7 @@ export default async function LocaleLayout({
         >
           {locale === "ar" ? "تخطَّ إلى المحتوى" : "Skip to content"}
         </a>
-        <GameProvider>
+<GameProvider>
           <ThemeShell>
             <Header
               locale={locale}
@@ -138,11 +139,13 @@ export default async function LocaleLayout({
               phone={siteConfig.phone}
               note={dict.common.consult}
             />
-            <main id="main">{children}</main>
-            <Footer locale={locale} />
-            <CampaignHUD locale={locale} />
-            <IntroScreen locale={locale} />
-            <Mascot locale={locale} />
+            <GlitchEventProvider locale={locale}>
+              <main id="main">{children}</main>
+              <Footer locale={locale} />
+              <CampaignHUD locale={locale} />
+              <IntroScreen locale={locale} />
+              <Mascot locale={locale} />
+            </GlitchEventProvider>
           </ThemeShell>
         </GameProvider>
         <OrganizationJsonLd locale={locale} />

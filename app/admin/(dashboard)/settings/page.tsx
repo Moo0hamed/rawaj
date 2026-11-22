@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/browser";
+import { adminErrorMessage } from "@/lib/admin/error-msg";
 
 export default function AdminSettings() {
   const configured = isSupabaseConfigured();
@@ -15,8 +16,12 @@ export default function AdminSettings() {
 
   async function save(obj:any){
     if(!supabase) return;
-    const {error}=await supabase.from("site_settings").upsert({ id:1, data: obj });
-    if(error) setMsg("خطأ حفظ: "+error.message+" (RLS/admins)"); else setMsg("تم الحفظ");
+    setMsg(null);
+    try {
+      const {error}=await supabase.from("site_settings").upsert({ id:1, data: obj });
+      if(error) return setMsg(adminErrorMessage(error).ar);
+      setMsg("تم الحفظ");
+    } catch (e: any) { setMsg(adminErrorMessage(e).ar); }
   }
 
   async function saveJson(){ try{ const obj=JSON.parse(json); setData(obj); await save(obj);}catch{ setMsg("JSON غير صالح"); } }

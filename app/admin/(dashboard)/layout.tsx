@@ -16,25 +16,14 @@ export default async function DashboardLayout({ children }: { children: React.Re
   const { data } = supabase ? await supabase.auth.getUser() : { data: { user: null } } as any;
   const user = data?.user;
   let isOwner = false;
-  let debug: Record<string, unknown> = {};
   if (supabase && user) {
-    const { data: rpcAdmin, error: rpcErr } = await supabase.rpc("is_admin");
-    const { data: adminRow, error: rowErr } = await supabase
+    const { data: rpcAdmin } = await supabase.rpc("is_admin");
+    const { data: adminRow } = await supabase
       .from("admins")
       .select("user_id")
       .eq("user_id", user.id)
       .maybeSingle();
     isOwner = rpcAdmin === true || Boolean(adminRow);
-    debug = {
-      uid: user.id,
-      email: user.email,
-      rpcAdmin,
-      rpcErr: rpcErr?.message ?? null,
-      adminRow: Boolean(adminRow),
-      rowErr: rowErr?.message ?? null,
-      isOwner,
-    };
-    console.log("[admin-layout-check]", debug);
   }
 
   if (supabase && user && !isOwner) {

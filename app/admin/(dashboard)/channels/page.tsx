@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/browser";
+import { adminErrorMessage } from "@/lib/admin/error-msg";
 
 type Channel = {
   id?: string; url: string; platform?: string; name?: string; description?: string;
@@ -30,11 +31,15 @@ export default function AdminChannels() {
 
   async function save(c: Channel){
     if(!supabase) return setMsg("Supabase غير مُعدّ"); if(!c.url) return setMsg("الرابط مطلوب");
+    setMsg(null);
     const payload={...c}; delete (payload as any).id;
     const q = c.id ? supabase.from("channels").update(payload).eq("id", c.id) : supabase.from("channels").insert(payload);
-    const {error}=await q; if(error) setMsg("خطأ حفظ: "+error.message+" (RLS/admins)"); else { setMsg("تم الحفظ"); setDraft({ url:"", platform:"", name:"", description:"", avatar_url:"", cover_url:"", published:false, visible:true, stats:{}, manual:{}, is_real_stats:false, stats_source:"none" }); load(); }
+    try {
+      const {error}=await q; if(error) return setMsg(adminErrorMessage(error).ar);
+      setMsg("تم الحفظ"); setDraft({ url:"", platform:"", name:"", description:"", avatar_url:"", cover_url:"", published:false, visible:true, stats:{}, manual:{}, is_real_stats:false, stats_source:"none" }); load();
+    } catch (e: any) { setMsg(adminErrorMessage(e).ar); }
   }
-  async function remove(id?: string){ if(!id||!supabase) return; if(!confirm("تأكيد الحذف؟")) return; const {error}=await supabase.from("channels").delete().eq("id",id); if(error) setMsg("خطأ: "+error.message); else {setMsg("تم الحذف"); load();} }
+  async function remove(id?: string){ if(!id||!supabase) return; if(!confirm("تأكيد الحذف؟")) return; try { const {error}=await supabase.from("channels").delete().eq("id",id); if(error) return setMsg(adminErrorMessage(error).ar); setMsg("تم الحذف"); load(); } catch (e: any) { setMsg(adminErrorMessage(e).ar); } }
 
   if(!configured) return <div className="rounded-xl border border-yellow-400/30 bg-yellow-400/10 p-4">Supabase غير مُعدّ.</div>;
 

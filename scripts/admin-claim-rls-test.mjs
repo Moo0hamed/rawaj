@@ -47,11 +47,26 @@ async function main() {
   ok("anon cannot call claim_owner()", Boolean(c1.error), c1.error ? c1.error.message : "unexpected success");
 
   // writes without auth/admin
-  for (const table of ["replay_videos", "channels", "content_items", "site_settings"]) {
+  for (const table of ["admins", "replay_videos", "channels", "content_items", "site_settings", "content_versions"]) {
     let r;
     if (table === "site_settings") r = await anon.from(table).upsert({ id: 1, data: { probe: true } });
+    else if (table === "admins") r = await anon.from(table).insert({ user_id: "00000000-0000-0000-0000-000000000000", email: "probe@example.com" });
+    else if (table === "content_versions") r = await anon.from(table).insert({ entity_type: "text", entity_id: "probe", snapshot: {} });
     else r = await anon.from(table).insert(table === "replay_videos" ? { url: "https://example.com/x" } : table === "channels" ? { url: "https://example.com/x" } : { kind: "text", data: {} });
     ok(`anon cannot write ${table}`, Boolean(r.error), r.error ? r.error.message : "unexpected success");
+  }
+
+  // reads return only published rows
+  const pubChecks = [
+    ["replay_videos", { published: true, visible: true }],
+    ["channels", { published: true, visible: true }],
+    ["content_items", { published: true, visible: true }],
+  ];
+  for (const [table, filter] of pubChecks) {
+    const { data, error } = await anon.from(table).select("*");
+    if (error) { ok(`anon can read ${table}`, false, error.message); continue; }
+    const onlyPublished = (data || []).every(r => filter.published === undefined || r.published === filter.published);
+    ok(`anon reads ${table}: only published/visible rows`, onlyPublished, `got ${data.length} rows`);
   }
 
   const ownerEmail = process.env.TEST_OWNER_EMAIL;

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/browser";
+import { adminErrorMessage } from "@/lib/admin/error-msg";
 
 type Video = {
   id?: string;
@@ -52,9 +53,16 @@ export default function AdminVideos() {
     setMsg(null);
     const payload = { ...v }; delete (payload as any).id;
     const q = v.id ? supabase.from("replay_videos").update(payload).eq("id", v.id) : supabase.from("replay_videos").insert(payload);
-    const { error } = await q;
-    if (error) setMsg("خطأ حفظ: " + error.message + " (تأكد من تطبيق RLS وإضافتك في public.admins)");
-    else { setMsg("تم الحفظ"); setDraft({ url: "", platform: "other", category: CATEGORIES[0], orientation: "horizontal", published: false, visible: true, title_ar: "", title_en: "", description_ar: "", description_en: "", thumbnail_url: "", service_slug: "" }); setPreview(null); load(); }
+    try {
+      const { error } = await q;
+      if (error) return setMsg(adminErrorMessage(error).ar);
+      setMsg("تم الحفظ");
+      setDraft({ url: "", platform: "other", category: CATEGORIES[0], orientation: "horizontal", published: false, visible: true, title_ar: "", title_en: "", description_ar: "", description_en: "", thumbnail_url: "", service_slug: "" });
+      setPreview(null);
+      load();
+    } catch (e: any) {
+      setMsg(adminErrorMessage(e).ar);
+    }
   }
 
   async function addBulk() {
@@ -71,8 +79,14 @@ export default function AdminVideos() {
   async function remove(id?: string) {
     if (!id || !supabase) return;
     if (!confirm("تأكيد الحذف؟")) return;
-    const { error } = await supabase.from("replay_videos").delete().eq("id", id);
-    if (error) setMsg("خطأ حذف: " + error.message); else { setMsg("تم الحذف"); load(); }
+    try {
+      const { error } = await supabase.from("replay_videos").delete().eq("id", id);
+      if (error) return setMsg(adminErrorMessage(error).ar);
+      setMsg("تم الحذف");
+      load();
+    } catch (e: any) {
+      setMsg(adminErrorMessage(e).ar);
+    }
   }
 
   if (!configured) return <div className="rounded-xl border border-yellow-400/30 bg-yellow-400/10 p-4">Supabase غير مُعدّ. أضف Project URL و anon key في .env.local ثم طبّق migration.</div>;

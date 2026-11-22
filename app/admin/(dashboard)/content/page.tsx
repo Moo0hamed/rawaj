@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createClient, isSupabaseConfigured } from "@/lib/supabase/browser";
+import { adminErrorMessage } from "@/lib/admin/error-msg";
 
 type Item = { id?: string; kind: string; slug?: string; sort_order?: number; published?: boolean; visible?: boolean; data: any };
 
@@ -21,11 +22,15 @@ export default function AdminContent() {
   async function save(){
     if(!supabase) return; let dataObj:any = {};
     try{ dataObj = JSON.parse(jsonText||"{}"); }catch{ return setMsg("JSON غير صالح"); }
+    setMsg(null);
     const payload = { ...draft, kind, data: dataObj }; delete (payload as any).id;
     const q = draft.id ? supabase.from("content_items").update(payload).eq("id", draft.id) : supabase.from("content_items").insert(payload);
-    const {error}=await q; if(error) setMsg("خطأ: "+error.message+" (RLS/admins)"); else { setMsg("تم الحفظ"); setDraft({kind, slug:"", sort_order:0, published:true, visible:true, data:{}}); setJsonText("{}"); load(); }
+    try {
+      const {error}=await q; if(error) return setMsg(adminErrorMessage(error).ar);
+      setMsg("تم الحفظ"); setDraft({kind, slug:"", sort_order:0, published:true, visible:true, data:{}}); setJsonText("{}"); load();
+    } catch (e: any) { setMsg(adminErrorMessage(e).ar); }
   }
-  async function remove(id?: string){ if(!id||!supabase) return; if(!confirm("تأكيد الحذف؟")) return; const {error}=await supabase.from("content_items").delete().eq("id",id); if(error) setMsg(error.message); else {setMsg("تم الحذف"); load();} }
+  async function remove(id?: string){ if(!id||!supabase) return; if(!confirm("تأكيد الحذف؟")) return; try { const {error}=await supabase.from("content_items").delete().eq("id",id); if(error) return setMsg(adminErrorMessage(error).ar); setMsg("تم الحذف"); load(); } catch (e: any) { setMsg(adminErrorMessage(e).ar); } }
 
   if(!configured) return <div className="rounded-xl border border-yellow-400/30 bg-yellow-400/10 p-4">Supabase غير مُعدّ.</div>;
 

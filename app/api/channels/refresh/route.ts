@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 
+const META_API_KEY = process.env.META_API_KEY;
+
 export async function POST(request: NextRequest) {
   try {
     const supabase = await createClient();
@@ -34,7 +36,7 @@ export async function POST(request: NextRequest) {
 
     for (const channel of channels) {
       try {
-        const meta = await fetchLinkMeta(channel.url);
+        const meta = await fetchLinkMeta(channel.url, channel.platform);
         if (meta) {
           const updateData: any = {
             name: meta.title || channel.name,
@@ -85,7 +87,7 @@ export async function POST(request: NextRequest) {
   }
 }
 
-async function fetchLinkMeta(url: string) {
+async function fetchLinkMeta(url: string, platform?: string | null) {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
@@ -121,17 +123,67 @@ async function fetchLinkMeta(url: string) {
       } catch {}
     }
 
-    meta.title = ogTitle || twitterTitle || oembedData?.title || extractTitle(html);
-    meta.description = ogDescription || twitterDescription || oembedData?.description || extractDescription(html);
-    meta.thumbnail = ogImage || twitterImage || oembedData?.thumbnail_url;
-    meta.cover_url = meta.thumbnail;
-    meta.stats_source = oembedData ? "official_api" : (ogTitle ? "og_oembed" : "manual");
+    // Meta Graph API for Facebook/Instagram pages (if token available)
+    let metaGraphData = null;
+    if (META_API_KEY && (platform === "facebook" || platform === "instagram" || url.includes("facebook.com") || url.includes("instagram.com"))) {
+      try {
+        // Extract username/page ID from URL
+        const username = extractUsernameFromUrl(url, platform);
+        if (username) {
+          const graphUrl = `https://graph.facebook.com/v19.0/${username}?fields=id,name,description,followers_count,media_count,profile_picture_url,cover_photo_url&access_token=${META_API_KEY}`;
+          const graphRes = await fetch(graphUrl);
+          if (graphRes.ok) {
+            metaGraphData = await graphRes.json();
+          }
+        }
+      } catch {}
+    }
+
+    meta.title = ogTitle || twitterTitle || oembedData?.title || metaGraphData?.name || extractTitle(html);
+    meta.description = ogDescription || twitterDescription || oembedData?.description || metaGraphData?.description || extractDescription(html);
+    meta.thumbnail = ogImage || twitterImage || oembedData?.thumbnail_url || metaGraphData?.profile_picture_url;
+    meta.cover_url = meta.thumbnail || metaGraphData?.cover_photo_url;
+    meta.stats_source = metaGraphData ? "meta_graph_api" : (oembedData ? "official_api" : (ogTitle ? "og_oembed" : "manual"));
+
+    // Stats from Meta Graph API
+    if (metaGraphData) {
+      meta.stats = {
+        followers: metaGraphData.followers_count,
+        posts: metaGraphData.media_count,
+        // views not directly available from Graph API without insights permission
+      };
+    }
 
     // Try to extract stats from meta tags or JSON-LD
     const stats = extractStats(html, url);
-    if (Object.keys(stats).length > 0) meta.stats = stats;
+    if (Object.keys(stats).length > 0) {
+      meta.stats = { ...(meta.stats || {}), ...stats };
+    }
 
     return meta;
+  } catch {
+    return null;
+  }
+}
+
+function extractUsernameFromUrl(url: string, platform?: string | null): string | null {
+  try {
+    const u = new URL(url);
+    const pathParts = u.pathname.split("/").filter(Boolean);
+    
+    if (platform === "instagram" || u.hostname.includes("instagram.com")) {
+      // Instagram: instagram.com/username/
+      return pathParts[0] || null;
+    }
+    if (platform === "facebook" || u.hostname.includes("facebook.com")) {
+      // Facebook: facebook.com/username or facebook.com/pages/name/id
+      if (pathParts[0] === "pages" && pathParts.length >= 2) {
+        return pathParts[1]; // page name
+      }
+      return pathParts[0] || null;
+    }
+    // Fallback: first path segment
+    return pathParts[0] || null;
   } catch {
     return null;
   }

@@ -1,0 +1,29 @@
+
+> rawaj-agency@1.0.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.29
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.100.45:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1975ms
+ ✓ Compiled /middleware in 266ms (176 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 1735ms (1699 modules)
+ GET /ar 200 in 2915ms
+ ○ Compiling /[locale]/campaign ...
+ ✓ Compiled /[locale]/campaign in 2s (1715 modules)
+ GET /ar/campaign 200 in 3357ms
+ ○ Compiling /[locale]/[...rest] ...
+ ✓ Compiled /[locale]/[...rest] in 1263ms (1720 modules)
+ GET /fonts/pixelify-sans-variable.woff2 404 in 2060ms
+ ✓ Compiled /icon.svg in 331ms (976 modules)
+ GET /icon.svg?8f27312e43ee2507 200 in 444ms
+ GET /ar/campaign 200 in 488ms
+ GET /fonts/pixelify-sans-variable.woff2 404 in 109ms
+ GET /ar 200 in 324ms
+ GET /fonts/pixelify-sans-variable.woff2 404 in 103ms
+ GET /ar 200 in 206ms
+ GET /fonts/pixelify-sans-variable.woff2 404 in 87ms

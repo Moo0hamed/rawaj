@@ -6,7 +6,7 @@
 - Step 2 (نظام الثيمات والغراء): مكتمل - 12 ثيمة، خطوط، ماسكوت، انتقالات، simple mode، reduced motion، 30fps canvas.
 - Step 3 (ثلاث عينات ثيمات): مكتمل - T5 Ads، T4 Social، T9 Contact مع لقطات شاشة.
 - Step 4 (باقي الثيمات): **مكتمل بالكامل** - جميع الـ10 ثيمات مع لقطات شاشة.
-- Step 5a (migrate file content to DB): **مكتمل** - تم إنشاء supabase/seed-content.sql بجميع المحتوى (stages, palette, strategy, social, ads, launch, identity copy, strength, mascot lines, services, team, pricing, projects, industries, testimonials, FAQs, dictionaries, site settings). جاهز للتشغيل في Supabase SQL Editor.
+- Step 5a (migrate file content to DB): **مكتمل** - تم إنشاء supabase/seed-content.sql بجميع المحتوى + تحديث lib/cms/public-client.ts لجلب المحتوى من قاعدة البيانات مع cache (5 min) و fallback محلي. Build و tsc ناجحان.
 
 ## التالي
 - Step 5b: Replay Room reading videos from DB (lazy player, +10 XP once per video, cap 50).

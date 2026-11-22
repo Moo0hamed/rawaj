@@ -37,6 +37,18 @@ export type ChannelRow = {
   visible?: boolean | null;
 };
 
+export type ContentItemRow = {
+  id: string;
+  kind: string;
+  slug: string;
+  sort_order: number;
+  published: boolean;
+  visible: boolean;
+  data: any;
+  created_at: string;
+  updated_at: string;
+};
+
 export const REPLAY_CATEGORIES = [
   "Promo films",
   "Reels and short-form edits",

@@ -10,11 +10,11 @@
   - T1 Intro/Typographic Poster: مكتمل مع لقطات شاشة.
   - T3 Strategy/Mosaic Grid: مكتمل مع لقطات شاشة.
   - T6 Replay/Ocean Flat: مكتمل مع لقطات شاشة.
-  - T7 Team/Ink Wash: مكتمل مع لقطات شاشة (screenshots/step4/t7-team-desktop.png, 	7-team-mobile.png, 	7-team-page-desktop.png, 	7-team-page-mobile.png).
-  - التالي: T8 Launch/Admin، T10 Horror/404.
+  - T7 Team/Ink Wash: مكتمل مع لقطات شاشة.
+  - T8 Launch/Admin/Neumorphic: مكتمل مع لقطات شاشة (screenshots/step4/t8-launch-desktop.png, 	8-launch-mobile.png, 	8-admin-desktop.png, 	8-admin-mobile.png).
+  - التالي: T10 Horror/404.
 
 ## التالي
-- T8 Launch/Admin (Neumorphic).
 - T10 Horror/404 (Glitch Horror).
 
 ## التحقق
